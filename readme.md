@@ -3,7 +3,7 @@
 
 ![badges](https://img.shields.io/badge/rode.com-tailwindcss-brightgreen)
 
-## [Live](https://rode-ui-clone-web.netlify.app/)
+## [Live](https://youtube-uiclone.netlify.app/)
 
 ### project name: youtube.com | Clone bypure html and css
 ## Hy, there!!
