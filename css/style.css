@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@
   background-color: #fff;
   color: #000;
 }
+
 body {
   padding-top: 14vh;
   padding-left: 4rem;
@@ -15,6 +17,7 @@ body {
   /* background-color: #000; */
   padding-bottom: 1000px;
 }
+
 .header-navbar {
   height: 15vh;
   background-color: #fff;
@@ -29,60 +32,77 @@ body {
   border-bottom: 1px solid#758283;
   /* border: 2px solid red; */
 }
+
 .left-section {
   /* border: 2px solid yellow; */
 }
+
 .icons-left {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .hamburger-menu {
   width: 1.75rem;
   margin-left: 24px;
   margin-right: 24px;
   cursor: pointer;
 }
+
 .logo-yt {
   width: 7rem;
   cursor: pointer;
 }
+
 .mid-section {
   flex: 1;
   margin-right: 2rem;
   margin-left: 2rem;
   max-width: 40rem;
+  /* border: 2px solid yellow; */
 }
+
 .mid-content {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
 }
+
 .search-bar {
   width: 0;
   flex: 1;
   height: 3rem;
   padding-left: 14px;
-  border: 1px solid #758283;
-  border-radius: 2px;
+  border: 1px solid #837975;
+  /* outline: none; */
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   cursor: pointer;
   box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.05);
 }
+
 .search-bar::placeholder {
   font-size: 18px;
 }
+
+.search-bar:focus {
+  outline: 1px solid #2936ce;
+}
+
 .search-btn,
 .voice-btn,
 .upload,
 .yt-apps,
 .notification-right,
-.user-logo{
+.user-logo {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 3rem;
 }
+
 .search-btn {
   width: 3rem;
   border: 1px solid #758283;
@@ -91,17 +111,20 @@ body {
   margin-left: -1px;
   margin-right: 10px;
   cursor: pointer;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
+
 .search-btn:hover .tooltip,
 .voice-btn:hover .tooltip,
 .upload:hover .tooltip,
 .yt-apps:hover .tooltip,
 .notification-right:hover .tooltip,
-.user-logo:hover .tooltip
-{
+.user-logo:hover .tooltip {
   opacity: 1;
 }
-.tooltip{
+
+.tooltip {
   background-color: rgb(94, 92, 92);
   color: #fff;
   padding: 4px 8px;
@@ -113,11 +136,13 @@ body {
   pointer-events: none;
   white-space: nowrap;
 }
+
 .search-img {
   height: 30px;
   background: transparent;
   cursor: pointer;
 }
+
 .voice-btn {
   width: 3rem;
   border: none;
@@ -125,14 +150,17 @@ body {
   background-color: #e2e2e2;
   cursor: pointer;
 }
+
 .voice-img {
   height: 1.5rem;
   background: transparent;
   cursor: pointer;
 }
+
 .right-section {
   /* width: 16rem; */
 }
+
 .right-content {
   display: flex;
   width: 17rem;
@@ -142,32 +170,37 @@ body {
   flex-shrink: 0;
   /* border: 2px solid goldenrod; */
 }
+
 .notification-right {
-    position: relative;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
+
 .notification-num {
-    position: absolute;
-    top: 8px;
-    right: 0px;
-    font-size: 8px;
-    background-color:#cc1717;
-    color: #fff;
-    border-radius: 50%;
-    padding: 4px 4px;
-    cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  font-size: 8px;
+  background-color: #cc1717;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px 4px;
+  cursor: pointer;
 }
+
 .upload-svg,
 .apps-svg,
 .notification-svg {
   height: 2rem;
   cursor: pointer;
 }
+
 .channel-log-right {
   height: 2.5rem;
   border-radius: 1.25rem;
   cursor: pointer;
 }
+
 /********************** sidebar ***********************/
 .sidebar-menu {
   position: fixed;
@@ -179,31 +212,35 @@ body {
   cursor: pointer;
   /* border: 2px solid red; */
 }
+
 .sidebar-content-main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   height: 16%;
   margin-bottom: 1px;
   background-color: #fff;
   color: #000;
 }
+
 .sidebar-content-main:hover {
-    cursor: pointer;
+  cursor: pointer;
   background-color: rgb(224, 221, 221);
 }
+
 .sidebar-content-main img {
   height: 1.75rem;
   background: transparent;
 }
+
 .sidebar-content-main .sidebar-title {
-    margin-top: 4px;
-    font-weight: 600;
-    background: transparent;
-    text-align: center;
-     font-size: 12px;
-} 
+  margin-top: 4px;
+  font-weight: 600;
+  background: transparent;
+  text-align: center;
+  font-size: 12px;
+}
 
 /********* main section *********/
 
@@ -216,52 +253,63 @@ body {
   /* border: 2px solid red; */
   background-color: #f6f6f6;
 }
+
 .main-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 14px;
-    row-gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 14px;
+  row-gap: 25px;
 }
+
 .main-section-content {
-    /* border: 2px solid red; */
+  /* border: 2px solid red; */
 }
-.video-information img{
-    width: 100%;
+
+.video-information img {
+  width: 100%;
 }
+
 .video-stats {
-    margin-top: 8px;
-    display: flex;
-    padding-bottom: 4px;
-    /* border: 2px solid rgb(21, 13, 118); */
+  margin-top: 8px;
+  display: flex;
+  padding-bottom: 4px;
+  /* border: 2px solid rgb(21, 13, 118); */
 }
+
 .channel-dp img {
- width: 40px;
- border-radius: 20px;
+  width: 40px;
+  border-radius: 20px;
 }
+
 .video-data {
   margin-left: 4px;
-    /* border: 2px solid rgb(118, 13, 92); */
+  /* border: 2px solid rgb(118, 13, 92); */
 }
+
 .video-data h1 {
- font-size: 14px;
- font-weight: 600;
- margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
+
 .video-data h4 {
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 4px;
-    color: rgb(33, 30, 30);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: rgb(33, 30, 30);
 }
+
 .video-data p {
   font-size: 12px;
   font-weight: 500;
   color: rgb(33, 30, 30);
 }
-.tumbnail{
+
+.tumbnail {
   position: relative;
 }
-.video-duration{
+
+.video-duration {
   position: absolute;
   bottom: 8px;
   right: 10px;
@@ -274,71 +322,84 @@ body {
 /*************** Media Query ***************/
 @media (max-width: 440px) {
   .main-section {
-   grid-template-columns: 1fr;
-}
-.mid-section {
+    grid-template-columns: 1fr;
+  }
+
+  .mid-section {
     display: none;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+  .header-navbar {
+    height: 10vh;
+    border-bottom: 1px solid#797f80;
+    /* border: 2px solid red; */
+  }
 }
-.right-section{
-  display: none;
-}
-.header-navbar {
-  height: 10vh;
-  border-bottom: 1px solid#797f80;
-  /* border: 2px solid red; */
-}
-}
-@media (min-width:441px) and  (max-width: 720px) {
+
+@media (min-width:441px) and (max-width: 720px) {
   .main-section {
-   grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .right-section {
+    display: none;
+  }
 }
-.right-section{
-  display: none;
-}
-}
-@media (min-width:721px) and (max-width:1249px){
+
+@media (min-width:721px) and (max-width:1249px) {
   .main-section {
     grid-template-columns: 1fr 1fr 1fr;
- }
+  }
 }
 
 @media (min-width: 1250px) {
   .main-section {
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.video-data h1 {
-  font-size: 19px;
- }
- .video-data h4 {
-     font-size: 16px;
- }
- .video-data p {
-   font-size: 14px;
- }
- .sidebar-menu {
-  width: 240px;
-  /* border: 2px solid red; */
-}
-.sidebar-content-main {
-  display: flex;
-  align-items: center;
-  text-align:start;
-  flex-direction: row;
-  height: auto;
-  padding: 8px 22px;
-  /* border: 2px solid rgb(12, 9, 9); */
-}
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 
-.sidebar-content-main img {
-  height: 2.5rem;
-  margin-right: 1rem;
-}
-.sidebar-content-main .sidebar-title {
+  .video-data h1 {
+    font-size: 19px;
+  }
+
+  .video-data h4 {
+    font-size: 16px;
+  }
+
+  .video-data p {
+    font-size: 14px;
+  }
+
+  .sidebar-menu {
+    width: 240px;
+    /* border: 2px solid red; */
+  }
+
+  .sidebar-content-main {
+    display: flex;
+    /* align-items: center; */
+    /* text-align: start; */
+    flex-direction: row;
+    /* height: auto; */
+    padding: 8px 22px;
+    /* border: 2px solid rgb(12, 9, 9); */
+  }
+
+  .sidebar-content-main img {
+    height: 2.5rem;
+    margin-right: 1rem;
+  }
+
+  .sidebar-content-main .sidebar-title {
     font-size: 16px;
     margin-top: 0;
-} 
-body{
-  margin-left: 170px;
-}
+  }
+
+  body {
+    margin-left: 170px;
+  }
 
 }
