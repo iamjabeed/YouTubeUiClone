@@ -1,17 +1,11 @@
 ## youtube.com | Clone
-### by Jabeed syed
 
-![badges](https://img.shields.io/badge/rode.com-tailwindcss-brightgreen)
+## [Live demo](https://youtube-uiclone.netlify.app/)
 
-## [Live](https://youtube-uiclone.netlify.app/)
-
-### project name: youtube.com | Clone bypure html and css
+### project name: youtube.com | Clone by pure html and css
 ## Hy, there!!
+In this project i have made ui design of youtube.com website clone with pure html css. 
 
-### project Description
-```
-In this project i have made ui design of youtube.com website clone with pure html css  and i have learnd many thing while making these clone . 
-```
 ## Technologies used:<br>
 HTML <br>
 CSS
