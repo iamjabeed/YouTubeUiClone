@@ -2,7 +2,7 @@
 
 ## [Live demo](https://youtube-uiclone.netlify.app/)
 
-### project name: youtube.com | Clone by pure html and css
+### youtube.com | Clone by pure html and css
 ## Hy, there!!
 In this project i have made ui design of youtube.com website clone with pure html css. 
 
